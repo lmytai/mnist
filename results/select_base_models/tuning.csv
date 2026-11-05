@@ -1,0 +1,29 @@
+model,params,f1_macro,accuracy,fit_seconds,warning
+SVM,{'C': 1},0.9743655441948074,0.9746,136.90690079999877,
+SVM,{'C': 3},0.9791191784657836,0.9793,128.1281373999991,
+SVM,{'C': 10},0.9792286253504198,0.9794,122.93666239999948,
+Softmax_sklearn,{'C': 0.1},0.9168403918223451,0.918,109.10991660000036,
+Softmax_sklearn,{'C': 1},0.9163915365748275,0.9175,203.82681240000056,
+Softmax_sklearn,{'C': 10},0.9122612415165889,0.9135,258.9065535999998,"lbfgs failed to converge after 300 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=300).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression"
+RandomForest,{'min_samples_leaf': 1},0.9646453472306975,0.965,5.550292800000534,
+RandomForest,{'min_samples_leaf': 2},0.9635443766111997,0.9639,5.523385399999825,
+RandomForest,{'min_samples_leaf': 4},0.9600487062650599,0.9604,4.98967040000025,
+KNN,{'n_neighbors': 3},0.9691691575213717,0.9694,0.014609400001063477,
+KNN,{'n_neighbors': 5},0.9689707814610392,0.9692,0.03546649999952933,
+KNN,{'n_neighbors': 7},0.9679050650668561,0.9681,0.020651500000894885,
+ExtraTrees,{'min_samples_leaf': 1},0.9675482101406058,0.9679,6.127522200000385,
+ExtraTrees,{'min_samples_leaf': 2},0.9637985399648885,0.9642,5.746371399998679,
+ExtraTrees,{'min_samples_leaf': 4},0.9601088601388034,0.9605,5.603978900000584,
+MLP512,{'alpha': 0.001},0.9769915033154245,0.9772,505.8344625000009,Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+MLP512,{'alpha': 0.01},0.9803617642842717,0.9805,514.3497183,Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+MLP512,{'alpha': 0.1},0.9770183715895282,0.9772,575.0535347999994,Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+MLP256_128,{'alpha': 0.001},0.9794155853185167,0.9796,244.93256119999933,Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+MLP256_128,{'alpha': 0.01},0.9795128061025922,0.9797,293.2626896999991,Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+MLP256_128,{'alpha': 0.1},0.9765162647171426,0.9767,367.11128950000057,Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.

@@ -1,0 +1,83 @@
+{
+  "seed": 42,
+  "classes": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "train_samples": 50000,
+  "validation_samples": 10000,
+  "selected_models": [
+    "SVM",
+    "KNN",
+    "MLP512"
+  ],
+  "selection": "voting_accuracy, voting_f1; hoa thi ten combo",
+  "voting_accuracy": 0.9853,
+  "voting_f1": 0.985275445000342,
+  "overlap_ratio": 0.47674418604651164,
+  "common_errors": 82,
+  "selected_params": {
+    "SVM": {
+      "C": 10,
+      "break_ties": false,
+      "cache_size": 2000,
+      "class_weight": null,
+      "coef0": 0.0,
+      "decision_function_shape": "ovr",
+      "degree": 3,
+      "gamma": "scale",
+      "kernel": "rbf",
+      "max_iter": -1,
+      "probability": true,
+      "random_state": 42,
+      "shrinking": true,
+      "tol": 0.001,
+      "verbose": false
+    },
+    "KNN": {
+      "algorithm": "auto",
+      "leaf_size": 30,
+      "metric": "minkowski",
+      "metric_params": null,
+      "n_jobs": -1,
+      "n_neighbors": 3,
+      "p": 2,
+      "weights": "distance"
+    },
+    "MLP512": {
+      "activation": "relu",
+      "alpha": 0.01,
+      "batch_size": 256,
+      "beta_1": 0.9,
+      "beta_2": 0.999,
+      "early_stopping": false,
+      "epsilon": 1e-08,
+      "hidden_layer_sizes": [
+        512
+      ],
+      "learning_rate": "constant",
+      "learning_rate_init": 0.001,
+      "max_fun": 15000,
+      "max_iter": 60,
+      "momentum": 0.9,
+      "n_iter_no_change": 61,
+      "nesterovs_momentum": true,
+      "power_t": 0.5,
+      "random_state": 42,
+      "shuffle": true,
+      "solver": "adam",
+      "tol": 0,
+      "validation_fraction": 0.1,
+      "verbose": false,
+      "warm_start": false
+    }
+  }
+}

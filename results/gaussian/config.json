@@ -1,0 +1,12 @@
+{
+  "seed": 42,
+  "epsilon": 0.001,
+  "sklearn_var_smoothing": 0.005013197999944136,
+  "batch_size": 512,
+  "train_samples": 50000,
+  "validation_samples": 10000,
+  "test_samples": 10000,
+  "dtype": "float64",
+  "selection": "accuracy, f1_macro; hoa thi epsilon nho hon",
+  "search_fit_seconds": 1.6495295000013357
+}

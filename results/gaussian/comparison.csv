@@ -1,0 +1,2 @@
+model,split,accuracy,precision_macro,recall_macro,f1_macro,fit_seconds,predict_seconds
+GaussianNB tự viết,Test,0.7753,0.8018735851221385,0.770682608313672,0.7716108540470502,0.2926029999998718,1.0530441000000792

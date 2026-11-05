@@ -1,0 +1,26 @@
+# Môi trường Python và cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Dữ liệu tải về
+data/
+
+# Model và các mảng dữ liệu đã lưu
+*.joblib
+*.pkl
+*.pt
+*.pth
+*.npz
+*.npy
+
+# Thông tin riêng tư
+.env
+.env.*
+!.env.example
+
+# File hệ điều hành
+.DS_Store
+Thumbs.db

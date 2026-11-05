@@ -1,0 +1,4 @@
+parameter,max_abs_error,matched
+prior,0.0,True
+mean,0.0,True
+variance,0.0,True

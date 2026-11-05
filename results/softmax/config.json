@@ -1,0 +1,15 @@
+{
+  "learning_rate": 0.5,
+  "l2": 2e-05,
+  "epochs": 100,
+  "batch_size": 256,
+  "seed": 42,
+  "best_epoch": 58,
+  "search_seconds": 103.23292930000025,
+  "selection": "F1 macro, validation CE pha hoa",
+  "sklearn_C": 1.0,
+  "sklearn_version": "1.9.1",
+  "train_samples": 50000,
+  "validation_samples": 10000,
+  "test_samples": 10000
+}
